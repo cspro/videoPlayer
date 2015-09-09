@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/mediaelementplayer.css" />
+<link rel="stylesheet" href="css/player.css" />
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/mediaelement-and-player.js"></script>
+<script src="js/player.js"></script>
+</head>
+<body>
+	<video id="player" width="640" height="360" crossorigin="anonymous" poster="images/thumb_1024.jpg" controls="controls" preload="none">
+	    <!-- MP4 file (you can also add WebM and Ogg if needed -->
+	    <!-- <source type="video/mp4" src="https://pearson.app.box.com/representation/file_version_31780494223/video_480.mp4?shared_name=3c0pdxt5ow800wlgbswy5vckpm56wbo4" /> -->
+	    <source type="video/mp4" src="video/video_480.mp4" />
+	    <!-- Optional: Add subtitles for each language -->
+	    <!-- Comment out or delete the following line if you don't have an srt file. -->
+	    <track id="mainSrt" kind="subtitles" src="srt/PAC_Overview_Final.srt" srclang="en" />
+	</video>
+	<!-- This will be hidden automatically if there is no srt file -->
+	<div class="transcriptContainer"></div>
+</body>
+</html>

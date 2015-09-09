@@ -1,0 +1,64 @@
+* {
+	font-family: 'Open Sans', 'Lucida Sans', Verdana, Arial, sans-serif;
+}
+
+body {
+	background: #DDDDDD;
+}
+
+.transcriptContainer {
+	width: 640px;
+	display: block;
+	background: #ffffff; /* Old browsers */
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	overflow: hidden;
+	
+}
+.transcript {
+	padding: 1em;
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+}
+.transcript_link {
+	text-decoration: none;
+	color: #444;
+	font: 12px "Lucida Sans", Verdana, sans-serif;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.transcript_link:hover {
+	border-radius: 3px;
+	background-color: #fcffa6;
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+}
+.played {
+	background-color: rgba(163, 232, 247, 0.45);
+	color: #000;
+}
+
+.mejs-container {
+	outline: none;
+}
+
+.showHideBtn {
+	display: block;
+	width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(50,50,50,0.7)), to(rgba(0,0,0,0.7)));
+  background: -webkit-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+  background: -moz-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+  background: -o-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+  background: -ms-linear-gradient(top, rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+  background: linear-gradient(rgba(50,50,50,0.7), rgba(0,0,0,0.7));
+	text-align: center;
+	color: #ccc;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	cursor: pointer;
+}
+.showHideBtn:hover {
+	color: #fff;
+}
